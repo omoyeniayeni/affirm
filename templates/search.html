@@ -1,0 +1,51 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+<!-- This is the header that has home and log out links -->
+<ul id="header">
+    <a href="/">Home</a>
+    <a href="/logout">Log Out</a>
+</ul> 
+
+<!-- This is the line that has both the compose button and the search form -->
+<div id="compose_search">
+    
+    <!-- This is the compose button-->
+    <span><a class="fas fa-arrow-left btn compose_new" href="/journal"><i ></i> Back to Journal</a></span>
+    
+    <!-- this is the search form-->
+    <span class="search">
+        <form id=search action="/search" method="post">
+            <div class="form-group">
+                <input autocomplete="off" type="search" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="search" placeholder= "Search   &#128269">
+            </div>
+            <button id="btn_search" type="submit" class="btn btn-primary"></button>
+        </form>
+    </span>
+</div>
+
+<p class="journal_heading">Search results for '{{ search }}':</p>
+
+
+{% if flag_search == true %}
+
+{% for row_search in range(0, rows_search) %}
+<ul class="journal_a">
+    <li>
+        <div style="color: rgb(70, 70, 70)">{{ date_search[row_search]["date"] }} 
+            <span class="tab"></span> 
+            ({{ time_search[row_search]["time"] }})</div>
+            <br>
+        <div>{{ journal_input_search[row_search]["journal_input"] }}</div>
+    </li>
+</ul>
+{% endfor %}
+
+{% else %}
+<h1 style="color:rgb(93, 162, 213); text-align:center; padding-top:15px;">You have no favorite search input for '{{ search }}'</h1>
+{% endif %}
+
+</div>
+{% endblock %}
+

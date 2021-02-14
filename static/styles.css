@@ -1,0 +1,194 @@
+body
+{
+    background-color: rgb(255, 200, 0);
+}
+.assertive
+{
+    font-size: 500%;
+    font-family: "Helvetica", sans-serif;
+    font-weight: bold;
+    line-height: 100%;
+    color: rgb(93, 162, 213);
+}
+.body 
+{
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+form, .affirmation 
+{
+    color: rgb(0, 10, 30);
+    display: inline-block;
+}
+h1
+{
+    font-family: "Times New Roman";
+    border-width: 5px 0px 0px 0px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgb(144, 204, 244), rgb(16, 104, 162)) 100 1%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h3
+{
+    color: rgb(0, 10, 30);
+    padding-bottom: 5px;
+    border-width: 0px 0px 3px 0px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgb(144, 204, 244), rgb(16, 104, 162)) 100 1%;
+}
+.form-group .form-control
+{
+    background-color: rgb(255, 200, 0);
+    color: rgb(0, 10, 30);
+    border-color: rgb(0, 10, 30);
+}
+.text
+{
+    margin-top: 5px;
+}
+.btn
+{
+    background-color: rgb(144, 204, 244);
+    color: black;
+}
+.btn:hover 
+{
+  background-color: rgb(93, 162, 213);
+  color: black;
+}
+#header
+{
+    padding: 20px;
+    background-color: rgb(144, 204, 244);
+}
+
+#header a
+{
+    color: black;
+    padding: 10px;
+    border-right: 1px solid black;
+    background-color: rgb(144, 204, 244);
+    transition: font-weight 0.1s;
+}
+#header a:hover
+{
+    text-decoration: none;
+    font-weight: bold;
+}
+.journal
+{
+    margin: 50px;
+}
+.journal_a
+{
+    list-style-type: none;
+    color: rgb(0, 10, 30);
+    margin: 50px;
+    padding: 15px;
+    border-width: 5px 5px 0px 5px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgb(144, 204, 244), rgb(16, 104, 162)) 1;
+}
+.tab
+{
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+}
+#footnote
+{
+    color: rgb(70, 70, 70);
+    font-size: small;
+}
+#footnote a
+{
+    color: rgb(0, 10, 30);
+}
+#footnote a:hover
+{
+    text-decoration: none;
+    color: rgb(93, 162, 213);
+}
+.compose_new, .search
+{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 40px;
+    padding: 15px;
+    border-radius: 20px;
+}
+.compose_new_2
+{
+    margin-left: 70px;
+    margin-bottom: 40px;
+    padding: 15px;
+    border-radius: 20px;
+}
+#compose_search
+{
+    display: flex;
+    justify-content: space-between;
+}
+#btn_search
+{
+    display: none;
+}
+.journal_heading
+{
+    color: rgb(0, 10, 30);
+    font-family: "Times New Roman";
+    font-size: 4vw;
+    text-align: center;
+}
+#error
+{
+  padding: 20px;
+  background-color: rgb(200, 200, 200);
+  color: darkred;
+}
+
+.close_btn
+{
+    color: darkred;
+    cursor: pointer;
+    float: right;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1;
+}
+
+.close_btn:hover
+{
+    color: black;
+}
+#delete
+{
+    float: right;
+    cursor: pointer;
+    color: gray;
+    background-color: rgba(0,0,0,0);
+    border-width: 0px;
+}
+.fa-star
+{
+    float: right;
+    cursor: pointer;
+}
+.fa-trash-alt
+{
+    cursor: pointer;
+}
+.star_button .del_button
+{
+    border-width: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(0, 10, 30);
+}
+.hide
+{
+    display: none;
+}

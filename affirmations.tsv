@@ -1,0 +1,199 @@
+id	name	affirmation
+1	feeling_overwhelmed	I will face the day with an open heart and an open mind.
+1	feeling_overwhelmed	The thought of facing the day fills me with confidence and positivity.
+1	feeling_overwhelmed	I control my day; I will not let my day control me.
+1	feeling_overwhelmed	I am calm and confident.
+1	feeling_overwhelmed	Balance is key. I will mix self-care with effort.
+1	feeling_overwhelmed	I give myself permission to take personal time.
+1	feeling_overwhelmed	Calm is my primary state of being.
+1	feeling_overwhelmed	I move beyond stress to peace.
+1	feeling_overwhelmed	Change provides me an opportunity.
+1	feeling_overwhelmed	I am calm, patient, and in control of my emotions.
+1	feeling_overwhelmed	I will be proactive in discovering obstacles to my accomplishments.
+1	feeling_overwhelmed	Where others see a challenge, I see new opportunities.
+1	feeling_overwhelmed	I will say “No” when I do not have the time or inclination to act.
+1	feeling_overwhelmed	I choose carefully what goes onto my calendar.
+2	break_up	I am unique and a gift to the world.
+2	break_up	I will take time to put myself first.
+2	break_up	Change provides me an opportunity.
+2	break_up	I am calm, patient, and in control of my emotions.
+2	break_up	I have a growth mindset.
+2	break_up	Other people will not take advantage of me.
+2	break_up	The only person who can defeat me is myself.
+2	break_up	I am being of love
+2	break_up	I am loved and lovable
+2	break_up	I forgive myself
+2	break_up	My heart is opening up to new possibilities
+2	break_up	I know I have worth and value
+3	imposter_syndrome	I will not compare myself to others.
+3	imposter_syndrome	Today I will accomplish great things.
+3	imposter_syndrome	The thought of facing the day fills me with confidence and positivity.
+3	imposter_syndrome	I will not let others impose their limitations on me.
+3	imposter_syndrome	Limiting beliefs have no power over me. I am optimistic and open-minded.
+3	imposter_syndrome	I am unique and a gift to the world.
+3	imposter_syndrome	My negative thoughts and self-images are gone.
+3	imposter_syndrome	Where others see a challenge, I see new opportunities.
+3	imposter_syndrome	I am a diamond. It is time for me to shine.
+3	imposter_syndrome	My opinion matters.
+3	imposter_syndrome	I am deserving of good things
+4	feeling_empty	Today I feel healthy and strong, physically, emotionally, and mentally.
+4	feeling_empty	Today I will accomplish great things.
+4	feeling_empty	I choose happiness for my day.
+4	feeling_empty	My day is a blessing and a gift that I will not waste.
+4	feeling_empty	The thought of facing the day fills me with confidence and positivity.
+4	feeling_empty	I am energized by the thought of a new day.
+4	feeling_empty	When opportunity knocks, I will be prepared to answer the door.
+4	feeling_empty	I feel free to give myself the tender loving care I need.
+4	feeling_empty	I have abundant energy.
+4	feeling_empty	I am happy, healthy, and centered.
+4	feeling_empty	I am a diamond. It is time for me to shine.
+5	feeling_small	I will not compare myself to others.
+5	feeling_small	I will not let others impose their limitations on me.
+5	feeling_small	Limiting beliefs have no power over me. I am optimistic and open-minded.
+5	feeling_small	I am calm and confident.
+5	feeling_small	I am unique and a gift to the world.
+5	feeling_small	I am a diamond. It is time for me to shine.
+6	difficulty_socializing	I am a positive influence, and I surround myself with others like me.
+6	difficulty_socializing	I am unique and a gift to the world.
+6	difficulty_socializing	Change provides me an opportunity.
+6	difficulty_socializing	The little things in life make all the difference.
+6	difficulty_socializing	I have faith in my social skills.
+6	difficulty_socializing	I choose hope over fear.
+6	difficulty_socializing	I am a diamond. It is time for me to shine.
+7	feeling_sad	I choose happiness for my day.
+7	feeling_sad	Today I am filled with positive energy.
+7	feeling_sad	I am energized by the thought of a new day.
+7	feeling_sad	I feel free to give myself the tender loving care I need.
+7	feeling_sad	Positive energy surrounds me.
+7	feeling_sad	I am a positive influence, and I surround myself with others like me.
+7	feeling_sad	I am unique and a gift to the world.
+7	feeling_sad	I have abundant energy.
+7	feeling_sad	My thoughts are positive and full of joy.
+7	feeling_sad	I am happy, healthy, and centered.
+7	feeling_sad	My negative thoughts and self-images are gone.
+7	feeling_sad	My life is made for joy. I will live with exuberance.
+7	feeling_sad	Happiness is within my grasp.
+8	haunting_past	I let go of the past, live in the now and let the future unfold on its own.
+8	haunting_past	I no longer focus on the negative events in my past, but rejoice in the pleasures of the present moment.
+8	haunting_past	Past events no longer influence my life; I live fully in each moment.
+8	haunting_past	I live in the present, the past is gone and no longer plays a part in my life.
+8	haunting_past	I let go of past hurts and open my heart to the joy of now.
+8	haunting_past	I let go of hurtful words and hear and speak of only loving kindness.
+8	haunting_past	I release the pain of rejection and live in the joy of the present moment.
+8	haunting_past	I no longer dwell on past hurtful events; I see only the light and love in my life now.
+9	lacking_selflove	Today I feel healthy and strong, physically, emotionally, and mentally.
+9	lacking_selflove	Positive energy surrounds me.
+9	lacking_selflove	I am a positive influence, and I surround myself with others like me.
+9	lacking_selflove	Balance is key. I will mix self-care with effort.
+9	lacking_selflove	I give myself permission to take personal time.
+9	lacking_selflove	I am unique and a gift to the world.
+9	lacking_selflove	I will take time to put myself first.
+9	lacking_selflove	I move beyond stress to peace.
+9	lacking_selflove	My negative thoughts and self-images are gone.
+9	lacking_selflove	The little things in life make all the difference.
+9	lacking_selflove	Even outside my comfort zone, I will be comfortable in my own skin.
+9	lacking_selflove	My commitment to myself is real.
+9	lacking_selflove	I am a diamond. It is time for me to shine.
+9	lacking_selflove	Self-love is my natural state of being.
+9	lacking_selflove	I will stop apologizing for being myself.
+9	lacking_selflove	I am grateful for the things I have.
+10	lacking_motivation	My day is full of possibilities and potential.
+10	lacking_motivation	I will face the day with an open heart and an open mind.
+10	lacking_motivation	Today I will accomplish great things.
+10	lacking_motivation	My day is a blessing and a gift that I will not waste.
+10	lacking_motivation	I am prepared for the challenges of the day.
+10	lacking_motivation	The thought of facing the day fills me with confidence and positivity.
+10	lacking_motivation	I am energized by the thought of a new day.
+10	lacking_motivation	My only limit is myself.
+10	lacking_motivation	I am open-minded and willing to explore any path to success.
+10	lacking_motivation	When opportunity knocks, I will be prepared to answer the door.
+10	lacking_motivation	I have abundant energy.
+10	lacking_motivation	Change provides me an opportunity.
+10	lacking_motivation	The little things in life make all the difference.
+10	lacking_motivation	I desire to learn new things.
+10	lacking_motivation	Where others see a challenge, I see new opportunities.
+10	lacking_motivation	Time is my friend. I finish all the tasks I need to finish.
+10	lacking_motivation	I am my own best chance for success.
+10	lacking_motivation	I am committed to becoming the person I will become.
+11	feeling_chaotic	Organization comes naturally to me.
+11	feeling_chaotic	Time is my most valuable asset. I guard my time carefully.
+11	feeling_chaotic	Balance is key. I will mix self-care with effort.
+11	feeling_chaotic	I give myself permission to take personal time.
+11	feeling_chaotic	Calm is my primary state of being.
+11	feeling_chaotic	My strength is stronger than my anxiety.
+11	feeling_chaotic	I move beyond stress to peace.
+11	feeling_chaotic	I am happy, healthy, and centered.
+11	feeling_chaotic	I am calm, patient, and in control of my emotions.
+11	feeling_chaotic	My negative thoughts and self-images are gone.
+12	lacking_confidence	I am calm and confident.
+12	lacking_confidence	I let go of negative “what if”s
+12	lacking_confidence	My strength is stronger than my anxiety.
+12	lacking_confidence	My fear diminishes as I live my life with courage.
+12	lacking_confidence	I am constantly improving.
+12	lacking_confidence	I have confidence in my skills.
+12	lacking_confidence	I am not afraid to be wrong.
+12	lacking_confidence	I am confident in the presence of others.
+12	lacking_confidence	I will speak with confidence and self-assurance.
+12	lacking_confidence	Even outside my comfort zone, I will be comfortable in my own skin.
+12	lacking_confidence	My confidence knows no limits.
+12	lacking_confidence	I choose hope over fear.
+12	lacking_confidence	I am a diamond. It is time for me to shine.
+12	lacking_confidence	My opinion matters.
+12	lacking_confidence	Negative self-talk has no place in my life.
+12	lacking_confidence	I do not bow to my fears.
+13	lacking_selfcare	I feel free to give myself the tender loving care I need.
+13	lacking_selfcare	I am a positive influence, and I surround myself with others like me.
+13	lacking_selfcare	Balance is key. I will mix self-care with effort.
+13	lacking_selfcare	I give myself permission to take personal time.
+13	lacking_selfcare	I will take time to put myself first.
+13	lacking_selfcare	Calm is my primary state of being.
+13	lacking_selfcare	I move beyond stress to peace.
+13	lacking_selfcare	My thoughts are positive and full of joy.
+13	lacking_selfcare	I am happy, healthy, and centered.
+13	lacking_selfcare	Mindfulness will help me get the most from my time.
+13	lacking_selfcare	I dare to be different.
+13	lacking_selfcare	My mind, body, and soul are fit and strong.
+14	lacking_productivity	Time is my most valuable asset. I guard my time carefully.
+14	lacking_productivity	Balance is key. I will mix self-care with effort.
+14	lacking_productivity	The little things in life make all the difference.
+14	lacking_productivity	I will be proactive in discovering obstacles to my accomplishments.
+14	lacking_productivity	I desire to learn new things.
+14	lacking_productivity	I have a growth mindset.
+14	lacking_productivity	Time is my friend. I finish all the tasks I need to finish.
+14	lacking_productivity	My priorities are clear. I work to finish my most important tasks first.
+14	lacking_productivity	My goals are my focus.
+14	lacking_productivity	My focus on success is unwavering.
+15	feeling_selfdoubt	I am unique and a gift to the world.
+15	feeling_selfdoubt	I have abundant energy.
+15	feeling_selfdoubt	I let go of negative “what if”s
+15	feeling_selfdoubt	My thoughts are positive and full of joy.
+15	feeling_selfdoubt	Change provides me an opportunity.
+15	feeling_selfdoubt	My negative thoughts and self-images are gone.
+15	feeling_selfdoubt	I follow my dreams with vigor.
+15	feeling_selfdoubt	My fear diminishes as I live my life with courage.
+15	feeling_selfdoubt	I desire to learn new things.
+15	feeling_selfdoubt	Where others see a challenge, I see new opportunities.
+15	feeling_selfdoubt	I have a growth mindset.
+15	feeling_selfdoubt	I am committed to becoming the person I will become.
+15	feeling_selfdoubt	My goals are getting closer to completion every day.
+15	feeling_selfdoubt	I dare to be different.
+15	feeling_selfdoubt	I choose hope over fear.
+15	feeling_selfdoubt	I will not apologize for being myself.
+15	feeling_selfdoubt	Negative self-talk has no place in my life.
+15	feeling_selfdoubt	I do not bow to my fears.
+16	career_issues	I am a wonderful employee. Any company would be lucky to have me.
+16	career_issues	My career will be the one of my dreams.
+16	career_issues	When I say “no” to the wrong job, I move that much closer to the perfect career.
+16	career_issues	Balance is key. I will mix self-care with effort.
+16	career_issues	Change provides me an opportunity.
+16	career_issues	I follow my dreams with vigor.
+16	career_issues	Where others see a challenge, I see new opportunities.
+16	career_issues	I have a growth mindset.
+16	career_issues	I am my own best chance for success.
+16	career_issues	I am committed to becoming the person I will become.
+16	career_issues	My goals are my focus.
+16	career_issues	My focus on success is unwavering.
+16	career_issues	Other people will not take advantage of me.
+16	career_issues	I have confidence in my skills.
+16	career_issues	I am a diamond. It is time for me to shine.
+16	career_issues	My opinion matters.

@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+<!-- This is the header that has home and log out links -->
+<ul id="header">
+    <a href="/">Home</a>
+    <a href="/logout">Log Out</a>
+</ul> 
+
+<!-- This is the line that has both the compose button and the search form -->
+<div id="compose_search">
+    
+    <!-- This is the compose button-->
+    <span><a class="fas fa-arrow-left btn compose_new" href="/journal"><i ></i> Back to Journal</a></span>
+</div>
+
+<p class="journal_heading">My favorite journal inputs:</p>
+
+{% if flag_favorites == true %}
+
+{% for length in range(0, lengths) %}
+<ul class="journal_a">
+    <li>
+        <div style="color: rgb(70, 70, 70)">{{ date[length]["date"] }} 
+            <span class="tab"></span> 
+            ({{ time[length]["time"] }})</div>
+            <br>
+        <div>{{ favorites[length]["favorites"] }}</div>
+    </li>
+</ul>
+{% endfor %}
+
+{% else %}
+<h1 style="color:rgb(93, 162, 213); text-align:center; padding-top:15px;">You have no favorite journal input</h1>
+<h6 style="color:rgb(93, 162, 213); text-align:center; font-size:16px; font-family: 'Times New Roman';">Double click on a corresponding star to mark a journal input as 'favorite'</h6>
+{% endif %}
+
+
+</div>
+{% endblock %}
+

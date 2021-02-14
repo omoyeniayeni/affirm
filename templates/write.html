@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+<ul id="header">
+    <a href="/">Home</a>
+    <a href="/journal">Journal</a>
+    <a href="/logout">Log Out</a>
+</ul> 
+
+{% if error_message %}
+    <p id="error">
+        <span><strong>Error: </strong></span>
+        <span id="error_div"></span>
+        <span class="close_btn" onclick="close_error()">&times;</span>
+    </p>
+{% endif %}
+
+<form class="body" action="/write" method="post">
+    <div class="form-group">
+        <label for="Input Journal">Journal input:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" cols="50" placeholder="pour your heart out..." name="journal_input"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
+
+<script>
+    var error_message = "{{ error_message }}";
+    function close_error()
+    {
+        document.getElementById("error").style.display = "none";
+    }
+    document.getElementById("error_div").innerHTML = error_message;
+</script> 
+{% endblock %}

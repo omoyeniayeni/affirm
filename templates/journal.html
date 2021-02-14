@@ -1,0 +1,166 @@
+{% extends "layout.html" %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block main %}
+
+<!-- This is the header that has home and log out links -->
+<ul id="header">
+    <a href="/">Home</a>
+    <a href="/favorites">Favorites</a>
+    <a href="/logout">Log Out</a>
+</ul>
+
+<!-- This is the line that has both the compose button and the search form -->
+<div id="compose_search">
+
+    <!-- This is the compose button-->
+    <span><a class="fas fa-edit btn compose_new" href="/write"> Compose New</a></span>
+
+    <!-- This is the search form-->
+    <span class="search">
+        <form id=search action="/search" method="post">
+            <div class="form-group">
+                <input autocomplete ="off" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="search" placeholder= "Search   &#128269">
+                <small id="emailHelp" class="form-text text-muted">search by words and date</small>
+            </div>
+            <button id="btn_search" type="submit" class="btn btn-primary"></button>
+        </form>
+    </span>
+</div>
+
+<p class="journal_heading">Your Journal</p>
+
+{% if flag_journal == true %}
+<h6 style="color:rgb(0, 10, 30); text-align:center; font-size:12px; font-family: 'Times New Roman';">Double click on a corresponding star to mark a journal input as 'favorite'</h6>
+<h6 style="color:rgb(0, 10, 30); text-align:center; font-size:12px; font-family: 'Times New Roman';">Double click on a corresponding trash to delete a journal input</h6>
+
+<table class="journal">
+{% for row in range(rows) %}
+    <ul class="journal_a">
+        <li>
+            <div style="color: rgb(70, 70, 70)">{{ date[row]["date"] }} 
+                <span class="tab"></span> 
+                ({{ time[row]["time"] }})</div>
+                <br>
+            <div>{{ journal_input[loop.index0] }}</div><br><star onclick="favorite(this.id)"><i class="fas fa-star"></i></star><del onclick="del(this.id)"><i class="fas fa-trash-alt"></i></del>
+            <form action="/journal" method="post">
+                <input class="hide" name="favorited" id="star_text">
+                <button class="hide" id="star_button" type="submit"></button>
+            </form>
+            <form action="/journal" method="post">
+                <input class="hide" name="deleted" id="del_text">
+                <button class="hide" id="del_button" type="submit"></button>
+            </form>
+        </li>
+    </ul>
+{% endfor %}
+</table>
+{% else %}
+<h1 style="color:rgb(93, 162, 213); text-align:center; padding-top:15px">You have no journal input</h1>
+{% endif %}
+
+
+{% if flag_journal == true %}
+<center style="margin-bottom: 50px;">
+    <form action="/journal" method="post">
+        <button class="btn btn-primary" type="submit" name="delete_all" value="delete_all">Delete All</button>
+    </form>
+</center>
+
+{% endif %}
+
+<script type="text/javascript">
+    // This is for searching through the journals for page /search
+    var search = document.getElementById("search");
+    search.addEventListener("keyup", function(event)
+    {
+        if (event.keyCode === 13)
+        {
+            event.preventDefault();
+            document.getElementById("btn_search").click();
+        }
+    });
+
+    // To name all the divs of the journal inputs
+    function journal_cleaning() 
+    {
+        var li = document.getElementsByTagName("li");
+    
+        for (i = 0; i < li.length; i++) 
+        {
+            li[i].id = "journal_li_" + i;
+        }
+    }
+    journal_cleaning();
+    
+    // To name all the divs of the stars
+    function star_cleaning() 
+    {
+        var star = document.getElementsByTagName("star");
+    
+        for (i = 0; i < star.length; i++) 
+        {
+            star[i].id = "star_" + i;
+        }
+    }
+    star_cleaning();
+    
+    function del_cleaning() 
+    {
+        var del = document.getElementsByTagName("del");
+    
+        for (i = 0; i < del.length; i++) 
+        {
+            del[i].id = "del_" + i;
+        }
+    }
+    del_cleaning();
+    
+    // To get the star highlighted
+    function favorite(clicked_id)
+    {
+
+        if (document.getElementById(clicked_id).style.color == "white")
+        {
+            document.getElementById(clicked_id).style.color = "yellow";
+        }
+        else
+        {
+            document.getElementById(clicked_id).style.color = "white";        
+        }
+    
+        document.getElementById(clicked_id).addEventListener("click", submit_star_form);
+        function submit_star_form()
+        {
+            document.getElementById("star_button").click();
+        }
+        document.getElementById("star_text").value = document.getElementById(clicked_id).previousSibling.previousSibling.innerHTML;
+    }
+
+    function del(clicked_id)
+    {
+
+        if (document.getElementById(clicked_id).style.color == "white")
+        {
+            document.getElementById(clicked_id).style.color = "red";
+        }
+        else
+        {
+            document.getElementById(clicked_id).style.color = "white";        
+        }
+    
+        document.getElementById(clicked_id).addEventListener("click", submit_del_form);
+        function submit_del_form()
+        {
+            document.getElementById("del_button").click();
+        }
+        document.getElementById("del_text").value = document.getElementById(clicked_id).previousSibling.previousSibling.previousSibling.innerHTML;
+    }
+    
+    
+</script>
+
+{% endblock %}

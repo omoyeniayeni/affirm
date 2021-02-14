@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block head %}
+    <script>
+    </script>
+{% endblock %}
+
+{% block main %}
+    <div class="body affirmation">
+        {% for number in range(0, numbers) %}
+            <h1>{{ affirmations[number] }} </h1>
+        {% endfor %}
+    
+        <button class="btn" onClick="history.go(0);"><i class="fas fa-redo"></i> Refresh</button>
+        <button class="btn" onClick="location.href='/';"><i class="fas fa-check"></i> Done</button>
+    </div>
+{% endblock %}
